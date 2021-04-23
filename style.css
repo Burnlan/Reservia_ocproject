@@ -1,0 +1,19 @@
+
+#wrapper {
+    background-color: rgba(99, 205, 218,0.33);
+    width: 90%;
+    margin: auto;
+}
+
+
+section, aside {
+    background-color: rgba(225, 95, 65,0.33);
+}
+
+
+
+
+footer {
+    background-color: rgba(89, 98, 117,0.33);
+    width: 100%;
+}
