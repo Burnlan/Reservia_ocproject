@@ -6,6 +6,25 @@
     padding: 0 10px 0 10px;
 }
 
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.3em;
+    margin: 0px;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
 header {
     display: flex;
     flex-wrap: wrap;
@@ -25,6 +44,7 @@ header {
 
 #navbar li a {
     font-family: 'Raleway', sans-serif;
+    font-size: 0.9em;
     color: black;
     text-decoration: none;
 }
@@ -46,6 +66,38 @@ header {
 #searchbar {
     width: 100%;
 }
+
+#filterform {
+    display: flex;
+    align-items: center;
+}
+
+#filterform button {
+    padding: 0px 15px 0px 0px;
+    border-radius: 50px;
+    border: 2px solid #F2F2F2;
+    border-left-style: none;
+    margin: 0px 0px 0px 20px;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 0.8em;
+    color: black;
+}
+
+#filterform .fas {
+    padding: 10px;
+    margin: 0px 10px 0px 0px;
+    border-radius: 50px;
+    color: #0065FC;
+    background-color: #DEEBFF;
+}
+
+.fa-info{
+    color: #0065FC;
+    font-size: 0.7em;
+}
+
 
 #corps {
     display: flex;

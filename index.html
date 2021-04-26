@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <title>Reservia</title>
     <link rel="icon" type="image/svg" href="images/logo/Reservia.svg">
-
+    <script src="https://kit.fontawesome.com/58a48d0580.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
 
@@ -29,18 +29,23 @@
     </nav>
 
     <div id="searchbar">
-        <h2>Trouvez un hébergement pour des vacances de rêve</h2>
+        <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
         <p>En plein centre ville ou en pleine nature</p>
 
-        <form> 
-            <input type="search" name="searchplace" placeholder="Entrez une destination !"> 
-            <input type="button" name="pricefilter" value="Économique">
-            <input type="button" name="stylefilter" value="Familial">
-            <input type="button" name="ambiancefilter" value="Romantique">
-            <input type="button" name="petfilter" value="Animaux autorisés">
+        <form id="searchform"> 
+            <input type="search" name="searchfield" placeholder="Entrez une destination !"> 
+            <button type="submit">Rechercher</button>
+        </form>
+            
+        <form id="filterform">
+        <h3>Filtres</h3>
+            <button type="button" name="pricefilter"> <i class="fas fa-money-bill-wave"></i> Économique </button>
+            <button type="button" name="stylefilter"> <i class="fas fa-child"></i> Familial </button>
+            <button type="button" name="ambiancefilter"> <i class="fas fa-heart"></i> Romantique </button>
+            <button type="button" name="petfilter"> <i class="fas fa-dog"></i> Animaux autorisés </button>
         </form>
         
-        <p><em>Plus de 500 logements sont disponibles dans cette ville</em></p>
+        <p><i class="fas  fa-info"></i>  Plus de 500 logements sont disponibles dans cette ville</p>
 
     </div>
 
