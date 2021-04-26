@@ -5,6 +5,37 @@
     margin: auto;
 }
 
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#searchbar {
+    width: 100%;
+}
+
+#corps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#results {
+    width: 66%;
+}
+
+#popular{
+    width: 33%;
+}
+
+#activities {
+    width: 99%;
+}
 
 section, aside {
     background-color: rgba(225, 95, 65,0.33);
@@ -16,4 +47,11 @@ section, aside {
 footer {
     background-color: rgba(89, 98, 117,0.33);
     width: 100%;
+    display : flex;
 }
+
+.footercolumn {
+    width: 33%;
+}
+
+
