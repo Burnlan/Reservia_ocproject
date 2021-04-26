@@ -13,6 +13,22 @@ header {
 
 #navbar ul {
     display: flex;
+    list-style-type: none;
+}
+
+#navbar li {
+    padding: 15px 25px 15px 25px;
+}
+
+#navbar li a {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+#navbar li:nth-child(3) a{
+    font-weight: 700;
+    color: #0065FC;
 }
 
 #searchbar {
