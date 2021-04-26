@@ -3,6 +3,7 @@
     background-color: rgba(99, 205, 218,0.33);
     width: 90%;
     margin: auto;
+    padding: 0 10px 0 10px;
 }
 
 header {
@@ -14,10 +15,12 @@ header {
 #navbar ul {
     display: flex;
     list-style-type: none;
+    margin-top: 0px;
 }
 
 #navbar li {
-    padding: 15px 25px 15px 25px;
+    border-top: solid 3px rgba(225, 95, 65, 0);
+    padding: 30px 25px 0px 25px;
 }
 
 #navbar li a {
@@ -29,6 +32,15 @@ header {
 #navbar li:nth-child(3) a{
     font-weight: 700;
     color: #0065FC;
+}
+
+#navbar li:hover a {
+    color: #0065FC;
+}
+
+#navbar li:hover {
+    cursor: pointer;
+    border-top: solid 3px #0065FC;
 }
 
 #searchbar {
