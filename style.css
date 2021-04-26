@@ -93,6 +93,12 @@ header {
     background-color: #DEEBFF;
 }
 
+#filterform button:hover {
+    cursor: pointer;
+    background-color:#DEEBFF;
+}
+
+
 .fa-info{
     color: #0065FC;
     font-size: 0.7em;
