@@ -200,6 +200,14 @@ header {
     margin: 6px 0px 6px 10px;
 }
 
+.starrating {
+    color: #f2f2f2;
+}
+
+.starrating .checked {
+    color: #0065fc;
+}
+
 #popular{
     width: 30%;
     padding: 30px;
