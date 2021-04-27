@@ -22,7 +22,6 @@ h3 {
 p {
     font-family: 'Raleway', sans-serif;
     font-size: 0.9em;
-    margin-top: 5px;
 }
 
 header {
@@ -71,6 +70,10 @@ header {
 
 #searchbar {
     width: 100%;
+}
+
+#searchbar p {
+    margin: 15px 0px 25px 0px;
 }
 
 #searchform {
@@ -153,12 +156,17 @@ header {
     justify-content: center;
 }
 
+
 #results {
     width: 66%;
 }
 
 #popular{
     width: 33%;
+}
+
+#results, #popular {
+    background-color: #F2F2F2;
 }
 
 #activities {
