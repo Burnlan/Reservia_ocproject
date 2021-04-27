@@ -136,7 +136,8 @@ header {
 
 #filterform button:hover {
     cursor: pointer;
-    background-color:#DEEBFF;
+    background-color:#0065fc;
+    color: white;;
 }
 
 
