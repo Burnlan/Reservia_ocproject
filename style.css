@@ -310,6 +310,10 @@ header {
 
 #activities {
     width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 13px;
 }
 
 
@@ -321,15 +325,10 @@ header {
 }
 
 
-section, aside {
-    background-color: rgba(225, 95, 65,0.33);
-}
-
-
 
 
 footer {
-    background-color: rgba(89, 98, 117,0.33);
+    background-color: #f2f2f2;
     width: 100%;
     display : flex;
 }
