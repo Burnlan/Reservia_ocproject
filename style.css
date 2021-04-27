@@ -153,24 +153,43 @@ header {
 #corps {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 
 #results {
-    width: 66%;
+    width: 60%;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+    border-radius: 13px;
+}
+
+#results h2 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.res_preview {
+    width: 30%;
+}
+
+.res_preview img {
+    max-width: 100%;
 }
 
 #popular{
-    width: 33%;
+    width: 30%;
+    padding: 30px;
+    background-color: #F2F2F2;
+    border-radius: 13px;
 }
 
-#results, #popular {
-    background-color: #F2F2F2;
-}
 
 #activities {
-    width: 99%;
+    width: 90%;
 }
 
 section, aside {
