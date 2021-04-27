@@ -72,7 +72,7 @@ header {
 }
 
 #searchbar p {
-    margin: 15px 0px 25px 0px;
+    margin: 5px 0px 5px 0px;
 }
 
 #searchform {
@@ -80,6 +80,7 @@ header {
     border-top: 2px solid #F2F2F2;
     border-bottom: 2px solid #F2F2F2;
     border-radius: 15px;
+    margin-top: 10px;
 }
 
 #searchform i {
@@ -98,7 +99,7 @@ header {
 }
 
 #searchform button {
-    padding: 10px;
+    padding: 11px 10px 10px 10px;
     color: white;
     background-color: #0065FC;
     font-family: 'Raleway', sans-serif;
@@ -115,7 +116,7 @@ header {
 
 #filterform {
     display: flex;
-    align-items: center;
+    align-items: baseline;
 }
 
 #filterform button {
@@ -123,12 +124,16 @@ header {
     border-radius: 50px;
     border: 2px solid #F2F2F2;
     border-left-style: none;
-    margin: 0px 0px 0px 20px;
+    margin: 20px 0px 0px 20px;
     background-color: white;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 0.8em;
+    font-size: 0.9em;
     color: black;
+}
+
+#filterform h3 {
+    font-size: 0.9em;
 }
 
 #filterform .fas {
@@ -165,6 +170,9 @@ header {
     justify-content: space-between;
 }
 
+#results, #popular, #activities {
+    margin-top: 30px;
+}
 
 #results {
     width: 63%;
