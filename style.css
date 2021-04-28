@@ -316,7 +316,10 @@ header {
     border-radius: 13px;
 }
 
-
+.act_column {
+    display: flex;
+    flex-direction: column;
+}
 
 
 .res_preview:hover, .pop_preview:hover, .act_preview:hover {
