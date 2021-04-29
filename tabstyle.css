@@ -71,14 +71,20 @@ header {
 #results, #popular, #activities {
     width: 100%;
     max-width: 100%;
-    margin: none;
 }
 
 #popular {
     order: -1;
     border-radius: 0px;
     margin-top: 0px;
+    display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#popular h2 {
+    width: 100%;
 }
 
 .pop_preview {
