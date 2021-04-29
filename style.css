@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+}
+
 
 #wrapper, #footerwrapper {
     width: 85%;
@@ -33,7 +37,6 @@ header {
 
 #logo {
     width: 100px;
-    height: 50px;
 }
 
 #logo:hover {
@@ -42,13 +45,15 @@ header {
 
 #navbar ul {
     display: flex;
+    align-items: center;
     list-style-type: none;
     margin-top: 0px;
+    padding: 0px;
 }
 
 #navbar li {
     border-top: solid 3px rgba(225, 95, 65, 0);
-    padding: 30px 25px 0px 25px;
+    padding: 30px 25px 30px 25px;
 }
 
 #navbar li a {
@@ -69,7 +74,7 @@ header {
 
 #navbar li:hover {
     cursor: pointer;
-    border-top: solid 3px #0065FC;
+    border-color: #0065FC;
 }
 
 #searchbar {
