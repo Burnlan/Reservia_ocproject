@@ -35,6 +35,10 @@ header {
     align-items: center;
 }
 
+#registerbutton {
+    display: none;
+}
+
 #logo {
     width: 100px;
 }

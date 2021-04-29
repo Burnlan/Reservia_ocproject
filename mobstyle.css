@@ -12,6 +12,19 @@ header {
     margin: 0px;
 }
 
+#registerbutton {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 0.9em;
+    color: #0065FC;
+    background-color: white;
+    border: none;
+}
+
+#navbar {
+    width: 100%;
+}
 
 #navbar ul {
     flex-wrap: wrap;
@@ -19,12 +32,21 @@ header {
 }
 
 #navbar li:nth-child(3) {
-    order : -1;
+    display: none;
 }
 
 #navbar li:nth-child(1), #navbar li:nth-child(2) {
     width: 50%;
+    padding: 15px 0px 10px 0px;
+    border-top: 0px;
+    border-bottom: solid 3px  rgba(225, 95, 65, 0);
 }
+
+#navbar li:hover {
+    cursor: pointer;
+    border-color: #0065FC;
+}
+
 
 #searchbar {
     display: flex;
