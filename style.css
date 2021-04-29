@@ -51,7 +51,7 @@ header {
     padding: 0px;
 }
 
-#navbar li {
+#navbar li{
     border-top: solid 3px rgba(225, 95, 65, 0);
     padding: 30px 25px 30px 25px;
 }

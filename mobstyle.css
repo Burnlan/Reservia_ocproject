@@ -12,6 +12,7 @@ header {
     margin: 0px;
 }
 
+
 #navbar ul {
     flex-wrap: wrap;
     text-align: center;
@@ -74,6 +75,10 @@ header {
     margin: 10px 0px 0px 0px;
 }
 
+#numberhits {
+    margin: 10px 0px 5px 0px;
+}
+
 #results, #popular, #activities {
     width: 100%;
     max-width: 100%;
@@ -83,6 +88,7 @@ header {
 #popular {
     order: -1;
     border-radius: 0px;
+    margin-top: 0px;
 }
 
 .pop_preview {
