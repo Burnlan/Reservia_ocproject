@@ -30,6 +30,8 @@ header {
     width: 100%;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
 }
 
 #searchform {
@@ -69,7 +71,7 @@ header {
 }
 
 #filterform button {
-    margin: 10px 0px 0px 10px;
+    margin: 10px 0px 0px 0px;
 }
 
 #results, #popular, #activities {
