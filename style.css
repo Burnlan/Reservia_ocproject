@@ -1,6 +1,7 @@
 
 #wrapper, #footerwrapper {
     width: 85%;
+    max-width: 1600px;
     margin: auto;
     padding: 0 10px 0 10px;
 }
