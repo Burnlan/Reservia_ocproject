@@ -1,3 +1,5 @@
+/* General */
+
 body {
     margin: 0px;
 }
@@ -28,6 +30,8 @@ p {
     font-size: 0.9em;
 }
 
+/* Header */
+
 header {
     display: flex;
     flex-wrap: wrap;
@@ -46,6 +50,8 @@ header {
 #logo:hover {
     cursor: pointer;
 }
+
+/* Navbar */
 
 #navbar ul {
     display: flex;
@@ -80,6 +86,8 @@ header {
     cursor: pointer;
     border-color: #0065FC;
 }
+
+/* Searchbar */
 
 #searchbar {
     width: 100%;
@@ -132,6 +140,7 @@ header {
     cursor: pointer;
 }
 
+/* Filterform */
 
 #filterform {
     display: flex;
@@ -188,6 +197,7 @@ header {
     margin-right: 10px;
 }
 
+/*Corps */
 
 #corps {
     display: flex;
@@ -212,6 +222,8 @@ header {
     text-decoration: none;
     color: black;
 }
+
+/* Results */
 
 #results {
     width: 63%;
@@ -278,6 +290,8 @@ header {
     color: black;
 }
 
+/* Popular */
+
 #popular{
     max-width: 25%;
     padding: 30px;
@@ -328,6 +342,7 @@ header {
 }
 
 
+/* Activities */
 
 #activities {
     width: 100%;
@@ -388,6 +403,7 @@ header {
 }
 
 
+/* Footer */
 
 
 footer {
