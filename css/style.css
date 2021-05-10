@@ -207,12 +207,12 @@ header {
     text-decoration: none;
     color: #0065fc;
 }
-/*
+
 #results a:visited, #popular a:visited, #activities a:visited {
     text-decoration: none;
     color: black;
 }
-*/
+
 #results {
     width: 63%;
     padding: 30px;

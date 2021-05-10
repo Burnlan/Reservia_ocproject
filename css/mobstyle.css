@@ -127,7 +127,7 @@ header {
 
 #activities {
     padding: 30px;
-    height: fit-content;
+    height: auto;
 }
 
 .act_column {
